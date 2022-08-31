@@ -4,7 +4,7 @@ This project is a detailed responsive one-page website template. The project was
 
 ## Project Link
 
-**coming soon**
+**https://responsive-one-pager-template.netlify.app/**
 
 ## Screenshot 1: Intro Template
 
