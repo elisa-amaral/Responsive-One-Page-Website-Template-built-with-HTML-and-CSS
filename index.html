@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive One-Page Website Template | Built with HTML and CSS</title>
+    <link rel="shortcut icon" href="./assets/img/icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+</head>
+
+<body>
+
+    <input type="checkbox" aria-label="Close Menu" role="button" id="close-menu" class="close-menu">
+    <!-- this is the button: -->
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#intro">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#flexbox-template">Flexbox</a></li>
+                    <li><a href="#grid-one">Grid One</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">Grid Two</a></li>
+                    <li><a href="#table">Table</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Intro Title Goes Here</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur necessitatibus amet atque dicta totam hic veritatis modi quas vero ullam, sunt cum explicabo unde harum? Velit nulla, perspiciatis debitis, officiis ducimus similique sapiente, fugit laudantium autem esse ipsum illo amet.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/optimized-javascript-img.svg" alt="HTML, CSS and JavaScript logos being hold by people as big lego pieces">
+            </div>
+        </div>
+    </section>
+
+    <section id="flexbox-template" class="white-bg section">
+        <div class="main-content flexbox-template-content">
+            <h2>Flexbox Template</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime distinctio ipsa odit beatae earum alias in provident ea ratione, iure ab impedit eaque aut eligendi fugiat quibusdam deserunt ullam at iusto facilis. Veniam, repudiandae? At dolorem magnam labore saepe incidunt!
+            </p>
+            <p>
+               Ducimus, consequuntur modi nemo earum minus ipsa quidem. Vel, porro magni, ut cupiditate deleniti hic vitae quam expedita adipisci minima numquam consectetur aliquid facilis maxime eveniet consequatur obcaecati quos incidunt distinctio. In, fuga?
+            </p>
+            <p>
+                Tempore nesciunt inventore eius distinctio corrupti possimus magnam! Numquam, optio aqua! Totam neque expedita placeat repudiandae aut. Minus esse, optio eos quas unde provident quia, enim maxime amet atque autem dolores placeat nostrum ea ipsam qui rem tempora, cum nemo sequi? Totam nemo culpa iste odit.
+            </p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="main-bg section">
+        <div class="grid main-content">
+            <h2 class="grid-main-heading">Grid-One Template</h2>
+            <p class="grid-description">
+                Brief description goes here: lorem ipsum dolor sit amet
+            </p>
+
+            <div class="grid-content">
+                <article>
+                    <h3>Content Title</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nostrum corporis debitis, iste dolores saepe accusantium quas aqua enim quibusdam, facilis delectus obcaecati dolore optio reiciendis blanditiis architect.
+                    </p>
+                </article>
+                
+                <article>
+                    <h3>Content Title</h3>
+                    <p>
+                        Voluptates optio quisquam voluptatem nesciunt ipsa possimus. Velit amet consequatur adipisci fugit impedit aqua similique, exercitationem recusandae necessitatibus praesentium repellendus facere, aperiam.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Content Title</h3>
+                    <p>
+                        Magni rem accusamus maiores possimus, laboriosam atque quasi! Inventore recusandae molestias similique itaque rem numquam iste enim quidem suscipit! Blanditiis, officiis deserunt libero minima harum explicabo similique necessitatibus.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="white-bg section">
+        <div class="main-content grid">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p id="gallery-description">
+                Brief description goes here: lorem ipsum dolor sit amet
+            </p>
+
+            <div class="grid-content">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x230?photograph=1" alt="Random image number 1 from Unsplash website">
+                </div>
+                
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x230?photo=2" alt="Random image number 2 from Unsplash website">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x230?pic=3" alt="Random image number 3 from Unsplash website">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x230?picture=4" alt="Random image number 4 from Unsplash website">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x230?image=5" alt="Random image number 5 from Unsplash website">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x230?img=6" alt="Random image number 6 from Unsplash website">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="main-bg section">
+        <div class="main-content grid">
+            <h2 class="grid-main-heading">Grid-Two Template</h2>
+            <p class="grid-description">
+                Brief description goes here: lorem ipsum dolor sit amet
+            </p>
+
+            <div class="grid-content">
+                <article>
+                    <h3>Description</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, omnis officia voluptas facilis eligendi cupiditate, quas ex consectetur at, officiis nostrum fugiat. Dolore, modi. Quibusdam earum nemo incidunt?
+                    </p>
+                </article>
+                
+                <article>
+                    <h3>Description</h3>
+                    <p>
+                        Illo ut, at ullam deserunt laboriosam commodi repudiandae. Veniam eius, dolores ullam obcaecati ratione, distinctio rem iste quisquam omnis repellat consectetur facere sed dolore. Dolorem cumque et optio!
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Description</h3>
+                    <p>
+                        Ducimus a magni eos delectus, vitae nesciunt nobis.Velit esse, nesciunt repudiandae voluptatum veritatis ipsum delectus voluptatem nostrum! Consequatur neque iusto provident totam eaque earum modi excepturi.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="table" class="white-bg section">
+        <div class="main-content flexbox-template-content">
+            <h2>Table Template</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam delectus quaerat illo pariatur reiciendis laborum, inventore quis. Eum, nobis? Veritatis debitis necessitatibus ullam fugiat eligendi non quis, cumque delectus quia.
+            </p>
+            
+            <div class="responsive-table">
+                <table>
+                   <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                   </thead>
+
+                   <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                   </tbody>
+
+
+                   <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Footer</td>
+                        </tr>
+                   </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="main-bg section">
+        <div class="main-content contact-content">
+            <div class="contact-text-content">
+                <h2>Contact Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Eligendi earum repellendus ducimus molestias soluta tempora reiciendis sed fuga itaque repellat. Quas quia sint eum rem neque ipsum recusandae odio unde numquam.
+                </p>
+            </div>
+            <div class="contact-img">
+                <img src="./assets/img/contact-us.svg" alt="HTML, CSS and JavaScript logos being hold by people as big lego pieces">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Send us your message</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Enter your first name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Enter your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your best email">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" cols="30" rows="10" id="message" placeholder="Type your message here..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <button type submit name="message">Send</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer white-bg">
+        <p>Built with <span id="heart-entity">&#10084;</span> by <a href="https://beacons.ai/elisa_amaral" target="_blank">Elisa Amaral</a></p>
+    </footer>
+
+    <a id="back-to-top" href="#intro">➤</a>
+</body>
+</html>
