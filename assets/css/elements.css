@@ -88,7 +88,6 @@ table td, table th
     white-space: nowrap;
     text-align: left;
     padding: 1rem;
-
     border: 0.2rem solid var(--light-gray-color);
 }
 

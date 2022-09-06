@@ -206,6 +206,11 @@
     margin-bottom: 2rem;
 }
 
+.footer a:hover
+{
+  color: #03bb03;
+}
+
 .footer p
 {
     margin: 0;
