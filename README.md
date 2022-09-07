@@ -1,6 +1,6 @@
 # Responsive One-Page Website Template built with HTML and CSS
 
-This project is a detailed responsive one-page website template. The project was entirely coded in HTML and CSS, no front-end frameworks were used. The purpose of the project was to structure a one-page website that contained HTML/CSS elements that are useful for one-page applications, such as grids, flexboxes, tables and forms. All the links in the top navbar anchor to different sections of the same page.
+This project is a detailed responsive one-page website template. The project was entirely coded in HTML and CSS, no front-end frameworks were used. The purpose of the project was to structure a one-page website that contained HTML/CSS elements that are useful for one-page applications, such as grids, flexboxes, tables and forms. All the links in the top navbar anchor to different sections of the page.
 
 ## Project Link
 
