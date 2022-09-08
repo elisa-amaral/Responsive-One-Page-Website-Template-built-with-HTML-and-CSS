@@ -37,8 +37,3 @@ This project is a detailed responsive one-page website template. The project was
 ## Screenshot 8:  Contact Us Teamplate (part 2) + Footer
 
 ![Screenshot](assets/img/screenshots/Screenshot_8.jpg)
-
-## Technology Stack
-
-+ HTML
-+ CSS
